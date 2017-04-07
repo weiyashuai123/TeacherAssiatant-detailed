@@ -1,7 +1,8 @@
 # TeacherAssiatant详解：教你如何一步一步的实现功能
 1. 登录功能（如何使用云服务实现联网登录）</br>
     首先我们需要使用移动云服务来储存数据.打开Bmob官网：[http://www.bmob.cn/](http://www.bmob.cn/) 注册一个账号并登陆</br>
-    在右上角点开我的控制台，创建一个应用。</br>
+    在右上角点开我的控制台，创建一个应用。
+    ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/0.png "bmob")</br>
     在数据中可以看到我们的数据库表 系统一般会默认创建一个 User表 </br>
     我们现在先往这个表中添加一条数据 点击添加行 添加一条用户名为teacher.密码为123456的用户</br>
     在左下角点开设置。可以看到我们的application id 一会会用到这个</br>
