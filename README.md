@@ -17,7 +17,7 @@
        ` compileSdkVersion 25`</br>
        ` buildToolsVersion '25.0.0'`</br>
         `useLibrary 'org.apache.http.legacy'`</br>
-       ` `}`</br>
+        `}`</br>
    ` dependencies `{</br>
        ` compile fileTree(dir: 'libs', include: ['*.jar'])`</br>
        ` compile 'cn.bmob.android:bmob-sdk:3.5.0'`</br>
