@@ -11,7 +11,7 @@
        ` jcenter()`</br>
         `maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }`</br>
         `}`</br>
-       ` }`
+       ` }`</br>
     在app的build.gradle文件中添加compile依赖文件</br>
     `android {`</br>
        ` compileSdkVersion 25`</br>
