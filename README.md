@@ -27,19 +27,13 @@
     `dependencies `{</br>
        `  compile fileTree(dir: 'libs', include: ['*.jar'])`</br>
        `  compile 'cn.bmob.android:bmob-sdk:3.5.0'`</br>
-    `}`
-   在minifest中声明一下网络权限：</br>
-<!--允许联网 --> 
+    `}`</br>
+   在minifest中声明以下权限：</br>
 `<uses-permission android:name="android.permission.INTERNET" /> `
-<!--获取GSM（2g）、WCDMA（联通3g）等网络状态的信息  --> 
 `<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> `
-<!--获取wifi网络状态的信息 --> 
 `<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> `
-<!--保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
 `<uses-permission android:name="android.permission.WAKE_LOCK" /> `
-<!--获取sd卡写的权限，用于文件上传和下载-->
 `<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />`
-<!--允许读取手机状态 用于创建BmobInstallation--> 
 `<uses-permission android:name="android.permission.READ_PHONE_STATE" />` </br>
    好的 现在我们来实现登陆 在LoginActivity的oncreate中加入：Bmob.initialize(this, "Application ID");</br>
    这里的Application id 就是你刚才创建的应用的application id;</br>
