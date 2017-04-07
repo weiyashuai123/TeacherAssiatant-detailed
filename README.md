@@ -9,45 +9,24 @@
     并在login的布局中添加两个编辑框用于用户输入用户名和密码.一个登陆按钮用于登录操作</br>
     现在我们先来配置一下刚才云服务的SDK.在 Project 的 build.gradle 文件中添加 Bmob 的maven仓库地址：</br>
     `allprojects { `</br>
-        `repositories {`</br>
-       ` jcenter()`</br>
-        `maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }`</br>
-        `}`</br>
-       ` }`</br>
+        `  repositories {`</br>
+        `  jcenter()`</br>
+        `  maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }`</br>
+        `  }`</br>
+        `  }`</br>
     在app的build.gradle文件中添加compile依赖文件</br>
     `android {`</br>
-       ` compileSdkVersion 25`</br>
-       ` buildToolsVersion '25.0.0'`</br>
-        `useLibrary 'org.apache.http.legacy'`</br>
-        `}`</br>
-   ` dependencies `{</br>
-       ` compile fileTree(dir: 'libs', include: ['*.jar'])`</br>
-       ` compile 'cn.bmob.android:bmob-sdk:3.5.0'`</br>
-   ` }`
+       `  compileSdkVersion 25`</br>
+       `  buildToolsVersion '25.0.0'`</br>
+       `  useLibrary 'org.apache.http.legacy'`</br>
+        ` }`</br>
+    `dependencies `{</br>
+       `  compile fileTree(dir: 'libs', include: ['*.jar'])`</br>
+       `  compile 'cn.bmob.android:bmob-sdk:3.5.0'`</br>
+    `}`
+   在minifest中声明一下网络权限：</br>
+   <uses-permission android:name="android.permission.INTERNET" /> </br>
    好的 现在我们来实现登陆 在LoginActivity的oncreate中加入：Bmob.initialize(this, "Application ID");</br>
    这里的Application id 就是你刚才创建的应用的application id;</br>
-   我们继续在 按钮的点击事件中写入</br>
-   ` protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-        final EditText user = (EditText) findViewById(R.id.username);
-        final EditText pass = (EditText) findViewById(R.id.password);
-        Button login = (Button) findViewById(R.id.button);
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                BmobUser bmobUser = new BmobUser();
-                bmobUser.setUsername(user.getText().toString());
-                bmobUser.setPassword(pass.getText().toString());
-                bmobUser.login(new SaveListener<BmobUser>() {
-                    @Override
-                    public void done(BmobUser bmobUser, BmobException e) {
-                        if (e==null){
-                            Intent intent = new Intent(LoginActivity.this,MainActivity.class);
-                            startActivity(intent);
-                        }
-                    }
-                });
-            }
-        });
-    }`
+   我们继续在 按钮的点击事件中写入登陆事件</br>
+   好的 现在运行一下程序 可以看到已经实现了登陆功能</br>
