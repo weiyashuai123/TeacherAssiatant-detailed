@@ -42,6 +42,6 @@
    好的 现在我们来实现登陆 在LoginActivity的oncreate中加入：Bmob.initialize(this, "Application ID");</br>
    这里的Application id 就是你刚才创建的应用的application id;</br>
    我们继续在 按钮的点击事件中写入登陆事件</br>
-   ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/4.png "bmob")</br>
+    ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/4.png "bmob") </br>
    好的 现在运行一下程序 可以看到已经实现了登陆功能</br>
-    ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/logindemo.png "bmob")</br>
+    ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/logindemo.gif "bmob")</br>
