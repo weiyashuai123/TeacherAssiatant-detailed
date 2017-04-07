@@ -25,7 +25,7 @@
        `  compile 'cn.bmob.android:bmob-sdk:3.5.0'`</br>
     `}`
    在minifest中声明一下网络权限：</br>
-   <uses-permission android:name="android.permission.INTERNET" /> </br>
+   `<uses-permission android:name="android.permission.INTERNET" />`</br>
    好的 现在我们来实现登陆 在LoginActivity的oncreate中加入：Bmob.initialize(this, "Application ID");</br>
    这里的Application id 就是你刚才创建的应用的application id;</br>
    我们继续在 按钮的点击事件中写入登陆事件</br>
