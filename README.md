@@ -38,7 +38,8 @@
 <!--获取sd卡写的权限，用于文件上传和下载-->
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 <!--允许读取手机状态 用于创建BmobInstallation--> 
-<uses-permission android:name="android.permission.READ_PHONE_STATE" />`</br>
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+`</br>
    好的 现在我们来实现登陆 在LoginActivity的oncreate中加入：Bmob.initialize(this, "Application ID");</br>
    这里的Application id 就是你刚才创建的应用的application id;</br>
    我们继续在 按钮的点击事件中写入登陆事件</br>
