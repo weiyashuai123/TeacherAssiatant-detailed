@@ -7,7 +7,8 @@
     创建一个应用:</br>
     ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/1.png "bmob")</br>
     在数据中可以看到我们的数据库表 系统一般会默认创建一个 User表 </br>
-    我们现在先往这个表中添加一条数据 点击添加行 添加一条用户名为teacher.密码为123456的用户（注意这个objectid 不要填写 是自动生成的）</br>
+    我们现在先往这个表中添加一条数据 </br>
+    点击添加行 添加一条用户名为teacher.密码为123456的用户（注意这个objectid 不要填写 是自动生成的）</br>
     ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/5.png "bmob")</br>
     在左下角点开设置:</br>
     可以看到我们的application id 一会会用到这个![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/3.png "bmob")</br>
