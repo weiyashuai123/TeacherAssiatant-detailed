@@ -5,6 +5,7 @@
     在右上角点开我的控制台</br>
     ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/0.png "bmob")</br>
     创建一个应用:</br>
+    ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/6.png "bmob")
     ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/1.png "bmob")</br>
     在数据中可以看到我们的数据库表 系统一般会默认创建一个 User表 </br>
     我们现在先往这个表中添加一条数据 </br>
