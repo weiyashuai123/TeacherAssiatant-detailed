@@ -84,13 +84,18 @@
   会发现多了一张表。表中存放着我们刚才的签到信息。</br>
   好了 到这里 签到的功能就实现了</br>
 ## 3.5 简单自定义drawable（插入章）
-  xml源码:[bg_button.xml](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/bg_button.xml) ,
+  xml源码:
+  [bg_button.xml](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/bg_button.xml) ,
   [bg_button2.xml](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/bg_button2.xml)</br>
   首先来看几个图片：</br>
-  这些圆形的和带弧度按钮可不是找的图片哦，而是我们自己写的xml背景文件</br>
+  ![shape](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/3.5.5.png "shape")</br>
+  圆形的和带弧度按钮可不是找的图片哦，而是我们自己写的xml背景文件</br>
   先来介绍一下最简单的————shape：</br>
   找到res资源文件夹 右击里面的drawable 选择new-draw resource file</br>
+  ![shape](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/3.5.1.png "shape")</br>
   在Root element中输入shape 在file name中输入文件名称（我这里叫bg_button）</br>
+  ![shape](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/3.5.2.png "shape")</br>
+  ![shape](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/3.5.3.png "shape")</br>
   这是一个圆形背景的资源，我们来一一介绍每个属性：</br>
   其中shape 为图形 有四种可以选择：line-直线，rectangle-矩形，oval-椭圆(圆是特殊的椭圆哟)，ring——环.可以看到我们这里是选择椭圆</br>
   Corners 为圆角弧度 只有在shape为矩形的时候有效 矩形会变为圆角矩形，它的属性radius用来设置圆角的大小，除此之外还有四个属性 topleftradius，toprightradius，bottomleftradius，bottomrightradius用来为四个角设置单独的圆角大小。</br>
@@ -102,5 +107,5 @@
   16位低精度四通道：格式-#ARGB 如 #FF00（不透明红色）#8F00（半透明红色）#0F00（纯透明红色）（纯透明跟没颜色是一样的）</br>
   128位高精度三通道：格式-#RRGGBB 如 #FF0000（红色） #00FF00（绿色）</br>
   128位高精度四通道：格式-#AARRGGBB 如  #FFFF0000（不透明红色）</br>
-  关于配色我这里有个不错的网站：</br>
+  关于配色我这里有个不错的网站：[http://tool.c7sky.com/webcolor/](http://tool.c7sky.com/webcolor/)</br>
   好，这章就到这里。</br>
