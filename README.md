@@ -1,5 +1,5 @@
 # TeacherAssiatant详解：教你如何一步一步的实现功能
-## 1. 登录功能（如何使用云服务实现联网登录）</br>
+## 1 登录功能（如何使用云服务实现联网登录）</br>
     源码:[loginDemo点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/LoginDemo.zip)</br>
     首先我们需要使用移动云服务来储存数据.打开Bmob官网：[http://www.bmob.cn/](http://www.bmob.cn/) 注册一个账号并登陆</br>
     在右上角点开我的控制台</br>
@@ -45,7 +45,7 @@
     ![s](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/4.png "bmob") </br>
    好的 现在运行一下程序 可以看到已经实现了登陆功能 </br>
     ![s](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/logindemo.gif "bmob")</br>
-## 2.注册与签到（扩展User类以及往数据库中写入数据）（上）
+## 2 注册与签到（扩展User类以及往数据库中写入数据）（上）
   源码:[Demo2点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/Demo2Register.zip)</br>
   首先我们来对User类来进行扩展，假设我们需要给教师用户添加一个“性别”属性.</br>
   建立一个teacher类继承自BmobUser：</br>
@@ -63,7 +63,7 @@
   ![Register](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/regis.gif "register")</br>
   打开我们的Bmob后台数据库表可以看到刚才注册的用户：</br>
   ![Register](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/2.5.png "register")</br>
-## 3.注册与签到（扩展User类以及往数据库中写入数据）（下）
+## 3 注册与签到（扩展User类以及往数据库中写入数据）（下）
   源码:[Demo3点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/Demo3sign.zip)</br>
   接下来我们来实现一个签到功能：</br>
   我们签到需要保存什么信息呢，假设我们签到信息要保存：签到时间、签到用户、签到地点这三个信息.</br>
@@ -83,3 +83,24 @@
    ![Sign](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/3.3.png "sign")</br>
   会发现多了一张表。表中存放着我们刚才的签到信息。</br>
   好了 到这里 签到的功能就实现了</br>
+## 3.5 简单自定义drawable（插入章）
+  xml源码:[bg_button.xml](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/bg_button.xml) ,
+  [bg_button2.xml](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/bg_button2.xml)</br>
+  首先来看几个图片：</br>
+  这些圆形的和带弧度按钮可不是找的图片哦，而是我们自己写的xml背景文件</br>
+  先来介绍一下最简单的————shape：</br>
+  找到res资源文件夹 右击里面的drawable 选择new-draw resource file</br>
+  在Root element中输入shape 在file name中输入文件名称（我这里叫bg_button）</br>
+  这是一个圆形背景的资源，我们来一一介绍每个属性：</br>
+  其中shape 为图形 有四种可以选择：line-直线，rectangle-矩形，oval-椭圆(圆是特殊的椭圆哟)，ring——环.可以看到我们这里是选择椭圆</br>
+  Corners 为圆角弧度 只有在shape为矩形的时候有效 矩形会变为圆角矩形，它的属性radius用来设置圆角的大小，除此之外还有四个属性 topleftradius，toprightradius，bottomleftradius，bottomrightradius用来为四个角设置单独的圆角大小。</br>
+  gradient 为渐变 它的属性 startcolor为渐变起始颜色，endcolor为终止颜色，angle为角度，默认为水平左到右，90为下到上，270为上到下。他还有一些其他的属性如centercolor（设置中间色）等等 有兴趣可以自己研究下。</br>
+  solid为单色填充 他只有一个属性color 用于设置填充色，这里我们用了渐变，所以不再设置填充。</br>
+  stroke为描边 属性 color用来设置描边颜色 ，width 用来设置描边宽度 这里我们为了效果明显设置为5dp 一般1dp-2dp足以</br>
+  接下来讲一下颜色 Android 颜色有四种：（注：这里的数字都是16进制数字0-f代表 0 - 15）</br>
+  16位低精度三通道：格式-#RGB 如 #F00（红色） #00F（蓝色）</br>
+  16位低精度四通道：格式-#ARGB 如 #FF00（不透明红色）#8F00（半透明红色）#0F00（纯透明红色）（纯透明跟没颜色是一样的）</br>
+  128位高精度三通道：格式-#RRGGBB 如 #FF0000（红色） #00FF00（绿色）</br>
+  128位高精度四通道：格式-#AARRGGBB 如  #FFFF0000（不透明红色）</br>
+  关于配色我这里有个不错的网站：</br>
+  好，这章就到这里。</br>
