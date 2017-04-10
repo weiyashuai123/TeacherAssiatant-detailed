@@ -105,6 +105,7 @@
   stroke为描边 属性 color用来设置描边颜色 ，width 用来设置描边宽度 这里我们为了效果明显设置为5dp 一般1dp-2dp足以</br>
   接下来在设置背景 在Button 中设置background为@drawable/资源文件名</br>
   ![shape](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/3.5.6.png "shape")</br>
+  好的 这样我们就成功地自己写了一个背景图片，yeah~</br>
   接下来讲一下颜色 Android 颜色有四种：（注：这里的数字都是16进制数字0-f代表 0 - 15）</br>
   16位低精度三通道：格式-#RGB 如 #F00（红色） #00F（蓝色）</br>
   16位低精度四通道：格式-#ARGB 如 #FF00（不透明红色）#8F00（半透明红色）#0F00（纯透明红色）（纯透明跟没颜色是一样的）</br>
