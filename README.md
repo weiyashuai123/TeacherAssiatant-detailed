@@ -45,3 +45,6 @@
     ![s](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/4.png "bmob") </br>
    好的 现在运行一下程序 可以看到已经实现了登陆功能 </br>
     ![s](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/logindemo.gif "bmob")</br>
+## 2.注册与签到（扩展User类以及往数据库中写入数据）
+  源码:[Demo2点击下载源码]()</br>
+  首先我们来对User类来进行扩展 建立一个teacher类继承自BmobUser：</br>
