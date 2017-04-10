@@ -47,4 +47,13 @@
     ![s](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/logindemo.gif "bmob")</br>
 ## 2.注册与签到（扩展User类以及往数据库中写入数据）
   源码:[Demo2点击下载源码]()</br>
-  首先我们来对User类来进行扩展 建立一个teacher类继承自BmobUser：</br>
+  首先我们来对User类来进行扩展，假设我们需要给教师用户添加一个“性别”属性.</br>
+  建立一个teacher类继承自BmobUser：</br>
+  `public class Teacher extends BmobUser{}`</br>
+  在类中写入我们新建的属性：</br>
+  `private String sex;`</br>
+  重写构造器并设置set，get方法：</br>
+  我们简单的扩展已经完成，接下来我们实现注册功能：</br>
+  注册界面不说了，两个edittext用于输入用户名与密码，radiobutton用于选择性别，一个button用于注册</br>
+  直接来介绍注册按钮的点击事件：</br>
+  new一个Teacher对象 设置其用户名密码性别，然后调用sign up方法，好的到这里注册功能就实现了，我们来运行一下：</br>
