@@ -33,11 +33,11 @@
        `  compile 'cn.bmob.android:bmob-sdk:3.5.0'`</br>
     `}`</br>
    在minifest中声明以下权限：</br>
-`<uses-permission android:name="android.permission.INTERNET" /> `
-`<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> `
-`<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> `
-`<uses-permission android:name="android.permission.WAKE_LOCK" /> `
-`<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />`
+`<uses-permission android:name="android.permission.INTERNET" /> `</br>
+`<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> `</br>
+`<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> `</br>
+`<uses-permission android:name="android.permission.WAKE_LOCK" /> `</br>
+`<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />`</br>
 `<uses-permission android:name="android.permission.READ_PHONE_STATE" />` </br>
    好的 现在我们来实现登陆 在LoginActivity的oncreate中加入：Bmob.initialize(this, "Application ID");</br>
    这里的Application id 就是你刚才创建的应用的application id;</br>
@@ -63,4 +63,4 @@
   ![Register](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/regis.gif "register")</br>
   打开我们的Bmob后台数据库表可以看到刚才注册的用户：</br>
   ![Register](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/2.5.png "register")</br>
-  ## 3.注册与签到（扩展User类以及往数据库中写入数据）（下）
+## 3.注册与签到（扩展User类以及往数据库中写入数据）（下）
