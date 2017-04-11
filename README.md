@@ -193,7 +193,8 @@ xml源码:
 	</tr>
 	<tr>
 		<td>addWhereGreaterThanOrEqualTo</td>
-		<td>bmobquery.addWhereGreaterThanOrEqualTo("score",60);</td>
+		<td>bmobquery.
+		addWhereGreaterThanOrEqualTo("score",60);</td>
 		<td>查询表中score(int)大于等于60的数据</td>
 	</tr>
 	<tr>
@@ -203,11 +204,13 @@ xml源码:
 	</tr>
 	<tr>
 		<td>addWhereLessThanOrEqualTo</td>
-		<td>bmobquery.addWhereLessThanOrEqualTo("score",60);</td>
+		<td>bmobquery.
+		addWhereLessThanOrEqualTo("score",60);</td>
 		<td>查询表中score(int)小于等于60的数据</td>
 	</tr>
 	<tr>
-		<td>addWhereGreaterThan,addWhereLessThan</td>
+		<td>addWhereGreaterThan,
+		addWhereLessThan</td>
 		<td>bmobquery.addWhereGreaterThan("createAt",date);</td>
 		<td>特别添加：上述也可用于时间比较</td>
 	</tr>
@@ -218,7 +221,8 @@ xml源码:
 	</tr>
 	<tr>
 		<td>addWhereDoesNotExists</td>
-		<td>bmobquery.addWhereDoesNotExists("score");</td>
+		<td>bmobquery.
+		addWhereDoesNotExists("score");</td>
 		<td>查询score为空的数据</td>
 	</tr>
 </table>
