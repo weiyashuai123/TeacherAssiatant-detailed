@@ -1,5 +1,5 @@
 # 教师助手详解：教你如何一步一步的实现功能
-  这是一个作者都一脸懵逼的完整项目教程。(⊙o⊙)</br>
+  这是一个作者看了都一脸懵逼的项目教程。(⊙o⊙)</br>
   APP最终需要建立教师端和学生端，学生端的功能相对简单，主要是配合教师教学中的工作。</br>
   在功能方面分为三大模块：教学模块，科研模块，健身模块。这里主要针对教学模块进行详解。</br>
 #### 教学模块主要功能：
@@ -19,7 +19,7 @@
 * QQ：592693857</br>
  E-mail：subcakewei@outlook.com</br>
  GitHub：[github.com/weiyashuai123](https://github.com/weiyashuai123)</br>
-            ![](https://github.com/weiyashuai123/Code-specification/blob/master/icon120.png)
+ ![](https://github.com/weiyashuai123/Code-specification/blob/master/icon120.png)
  ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/wechat.png)
  ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/icon120.png)</br>
 * 万水千山总是情，点个Star行不行~
