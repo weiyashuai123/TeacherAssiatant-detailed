@@ -33,12 +33,14 @@
        `  compile 'cn.bmob.android:bmob-sdk:3.5.0'`</br>
     `}`</br>
    在minifest中声明以下权限：</br>
+   
 `<uses-permission android:name="android.permission.INTERNET" /> `</br>
 `<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> `</br>
 `<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> `</br>
 `<uses-permission android:name="android.permission.WAKE_LOCK" /> `</br>
 `<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />`</br>
 `<uses-permission android:name="android.permission.READ_PHONE_STATE" />` </br>
+
    好的 现在我们来实现登陆 在LoginActivity的oncreate中加入：Bmob.initialize(this, "Application ID");</br>
    这里的Application id 就是你刚才创建的应用的application id;</br>
    我们继续在 按钮的点击事件中写入登陆事件</br>
@@ -142,17 +144,20 @@
   运用数据库最重要的就是查询数据了，之前说了保存数据以及BmobUser类的使用这章我们来讲讲如何查询数据</br>
   首先我给之前建立的数据表SignInfo从后台插入了几条数据 用于我们对查询操作的详解.插完之后大概张这个样子：</br>
   ![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/4.1.png "query")</br>
+  
   * 1）查询一个表中的所有数据</br>
   来看如何查询所有数据，假设我们要查询SignInfo表中的所有数据，我们就可以这样写：</br>
   ![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/4.2.png "query")</br>
   可以看到我们直接new了一个BmobQuery对象，然后调用了它的find方法，在它的find方法中有一个监听器的回调事件</br>
   在监听器的回调中，list就是返回的所有数据.</br>
+  
   * 2）单条件查询</br>
   假设我们现在要查询所有位置为'火星'的签到信息，我们就可以这样写：</br>
   ![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/4.3.png "query")</br>
   可以看到我们加了一句话query.addWhereEqualTo("location","火星");</br>
   这个方法中有两个参数第一个参数用来指定查询的列名，第二个参数用来查询指定的值。</br>
   这句话的意思就是查询SignInfo表中所有location = "火星"的数据</br>
+  
   * 3）多条件查询</br>
   假设我们要查询所有username = "laoshi"并且location = "地球"的签到信息，我们就可以这样写：</br>
   ![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/4.4.png "query")</br>
@@ -160,6 +165,7 @@
   有and查询自然有or查询，假设我们现在要查询所有username = "laoshi"或者location = "地球"的签到信息。</br>
   只需要把and改为or既可以了：</br>
   ![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/4.5.png "query")</br>
+  
   * 4）其他条件</br>
   有时候我会需要模糊一点的比较查询：比如在某个时间点之后的数据，包含xxx的数据，以xxx结尾的数据等</br>
   下面有一张我列出query的方法表，有所有查询条件的方法：</br>
