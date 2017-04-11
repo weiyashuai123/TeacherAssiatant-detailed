@@ -6,8 +6,8 @@
 * [第3.5章：简单自定义drawable（插入章）](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/Chapter3.5.md)
 * [第4章：查询数据](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/Chapter4.md)
 
-* Create At：2016年9月20日</br>
-  Update At：2017年4月8日</br>
+* Create At：2017年4月5日</br>
+  Update At：2017年4月11日</br>
   Author：魏亚帅</br>
   E-mail：subcakewei@outlook.com</br>
   GitHub：[github.com/weiyashuai123](https://github.com/weiyashuai123)</br>
