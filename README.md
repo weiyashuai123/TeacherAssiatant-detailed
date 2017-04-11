@@ -10,3 +10,4 @@
  QQ：592693857</br>
  E-mail：weiyashuai123@gmail.com，subcakewei@outlook.com，subcakewei@163.com</br>
  GitHub：[github.com/weiyashuai123](https://github.com/weiyashuai123)</br>
+ ![](https://github.com/weiyashuai123/Code-specification/blob/master/icon120.png)
