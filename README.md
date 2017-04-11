@@ -1,4 +1,5 @@
 # 教师助手详解：教你如何一步一步的实现功能
+  这是一个从零起步，从入门到懵逼的完整项目教程。
 ## 目录
 * [第1章：登录功能（如何使用云服务实现联网登录）](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/md/Chapter1.md)
 * [第2章：注册与签到（扩展User类以及往数据库中写入数据）（上）](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/md/Chapter2.md)
