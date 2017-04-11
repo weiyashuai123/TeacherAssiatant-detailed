@@ -134,6 +134,7 @@
 		<td> #FFFF0000（不透明红色）</td>
 	</tr>
 </table>
+ </br>
   关于配色我这里有个不错的网站：[http://tool.c7sky.com/webcolor/](http://tool.c7sky.com/webcolor/)</br>
   好，这章就到这里。</br>
 ## 4 查询数据
