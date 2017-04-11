@@ -87,6 +87,6 @@
 查询演示图：</br>
 ![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/check.gif "query")</br>
 很简单，就不给出界面和代码详解了，有兴趣可以在这里下载源码：</br>
-xml布局文件：[activity_check](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/activity_check.xml) 
-CheckActivity：[CheckActivity](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/CheckActivity.java)</br>
+xml布局文件：[activity_check](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/src/activity_check.xml) 
+CheckActivity：[CheckActivity](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/src/CheckActivity.java)</br>
 好了 这章到这里就结束了</br>
