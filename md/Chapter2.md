@@ -1,5 +1,5 @@
 ## 第二章 注册与签到（扩展User类以及往数据库中写入数据）（上）
-源码:[Demo2点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/Demo2Register.zip)</br>
+源码:[Demo2点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/src/Demo2Register.zip)</br>
 首先我们来对User类来进行扩展，假设我们需要给教师用户添加一个“性别”属性.</br>
 建立一个teacher类继承自BmobUser：</br>
 `public class Teacher extends BmobUser{}`</br>
