@@ -170,7 +170,28 @@ xml源码:
   有时候我会需要模糊一点的比较查询：比如在某个时间点之后的数据，包含xxx的数据，以xxx结尾的数据等</br>
   下面有一张我列出query的方法表，有所有查询条件的方法：</br>
   
-  
+<table>
+	<tr>
+		<td>方法名</td>
+		<td>示例</td>
+		<td>解释</td>
+	</tr>
+	<tr>
+		<td>addWhereEqualTo</td>
+		<td>bmobquery.addWhereEqualTo("location","china");</td>
+		<td>查询表中location为"china"的数据</td>
+	</tr>
+	<tr>
+		<td>addWhereNotEqualTo</td>
+		<td>bmobquery.addWhereNotEqualTo("location","china");</td>
+		<td>查询表中location不等于"china"的数据</td>
+	</tr>
+		<tr>
+		<td>addWhereGreaterThan</td>
+		<td>bmobquery.addWhereGreaterThan("score",60);</td>
+		<td>查询表中score大于60的数据（score为int）</td>
+	</tr>
+</table>
   
 查询演示图：</br>
 ![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/check.gif "query")</br>
