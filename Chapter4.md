@@ -1,4 +1,4 @@
-## 4 查询数据
+## 第4章 查询数据
 运用数据库最重要的就是查询数据了，之前说了保存数据以及BmobUser类的使用这章我们来讲讲如何查询数据</br>
 首先我给之前建立的数据表SignInfo从后台插入了几条数据 用于我们对查询操作的详解.插完之后大概张这个样子：</br>
   ![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/4.1.png "query")</br>
