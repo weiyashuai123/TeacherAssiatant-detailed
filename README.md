@@ -1,10 +1,10 @@
 # TeacherAssiatant详解：教你如何一步一步的实现功能
 ## 1 登录功能（如何使用云服务实现联网登录）</br>
 源码:[loginDemo点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/LoginDemo.zip)</br>
-    首先我们需要使用移动云服务来储存数据.打开Bmob官网：[http://www.bmob.cn/](http://www.bmob.cn/) 注册一个账号并登陆</br>
-    在右上角点开我的控制台</br>
+首先我们需要使用移动云服务来储存数据.打开Bmob官网：[http://www.bmob.cn/](http://www.bmob.cn/) 注册一个账号并登陆</br>
+在右上角点开我的控制台</br>
     ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/0.png "bmob")</br>
-    创建一个应用:</br>
+ 创建一个应用:</br>
     ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/6.png "bmob")
     ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/1.png "bmob")</br>
     在数据中可以看到我们的数据库表 系统一般会默认创建一个 User表 </br>
