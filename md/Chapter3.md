@@ -1,5 +1,5 @@
 ## 第3章 注册与签到（扩展User类以及往数据库中写入数据）（下）
-源码:[Demo3点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/Demo3sign.zip)</br>
+源码:[Demo3点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/src/Demo3sign.zip)</br>
 接下来我们来实现一个签到功能：</br>
 我们签到需要保存什么信息呢，假设我们签到信息要保存：签到时间、签到用户、签到地点这三个信息.</br>
 那么首先创建一个继承自BmobObject的JavaBean用于存放签到信息：</br>
