@@ -169,9 +169,12 @@ xml源码:
 * 4）其他条件</br>
   有时候我会需要模糊一点的比较查询：比如在某个时间点之后的数据，包含xxx的数据，以xxx结尾的数据等</br>
   下面有一张我列出query的方法表，有所有查询条件的方法：</br>
-  查询演示图：</br>
-  ![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/check.gif "query")</br>
-  很简单，就不给出界面和代码详解了，有兴趣可以在这里下载源码：</br>
-  xml布局文件：[activity_check](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/activity_check.xml) 
-  CheckActivity：[CheckActivity](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/CheckActivity.java)</br>
+  
+  
+  
+查询演示图：</br>
+![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/check.gif "query")</br>
+很简单，就不给出界面和代码详解了，有兴趣可以在这里下载源码：</br>
+xml布局文件：[activity_check](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/activity_check.xml) 
+CheckActivity：[CheckActivity](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/CheckActivity.java)</br>
 好了 这章到这里就结束了</br>
