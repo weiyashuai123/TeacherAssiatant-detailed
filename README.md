@@ -1,6 +1,6 @@
 # TeacherAssiatant详解：教你如何一步一步的实现功能
 ## 1 登录功能（如何使用云服务实现联网登录）</br>
-    源码:[loginDemo点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/LoginDemo.zip)</br>
+源码:[loginDemo点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/LoginDemo.zip)</br>
     首先我们需要使用移动云服务来储存数据.打开Bmob官网：[http://www.bmob.cn/](http://www.bmob.cn/) 注册一个账号并登陆</br>
     在右上角点开我的控制台</br>
     ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/0.png "bmob")</br>
@@ -48,7 +48,7 @@
    好的 现在运行一下程序 可以看到已经实现了登陆功能 </br>
     ![s](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/logindemo.gif "bmob")</br>
 ## 2 注册与签到（扩展User类以及往数据库中写入数据）（上）
-  源码:[Demo2点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/Demo2Register.zip)</br>
+源码:[Demo2点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/Demo2Register.zip)</br>
   首先我们来对User类来进行扩展，假设我们需要给教师用户添加一个“性别”属性.</br>
   建立一个teacher类继承自BmobUser：</br>
   `public class Teacher extends BmobUser{}`</br>
@@ -161,7 +161,7 @@
 * 3）多条件查询</br>
   假设我们要查询所有username = "laoshi"并且location = "地球"的签到信息，我们就可以这样写：</br>
   ![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/4.4.png "query")</br>
-  有点复杂 多条件我们需要建立一个BmobQuery 的list 往里面加入我们的条件，然后调用BmobQuery对象的and()方法来查询</br>
+  多条件我们需要建立一个BmobQuery 的list，往里面加入我们的条件，然后调用BmobQuery对象的and()方法来查询</br>
   有and查询自然有or查询，假设我们现在要查询所有username = "laoshi"或者location = "地球"的签到信息。</br>
   只需要把and改为or既可以了：</br>
   ![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/4.5.png "query")</br>
@@ -174,4 +174,4 @@
   很简单，就不给出界面和代码详解了，有兴趣可以在这里下载源码：</br>
   xml布局文件：[activity_check](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/activity_check.xml) 
   CheckActivity：[CheckActivity](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/CheckActivity.java)</br>
-  好了 这章到这里就结束了</br>
+好了 这章到这里就结束了</br>
