@@ -178,51 +178,48 @@ xml源码:
 	</tr>
 	<tr>
 		<td>addWhereEqualTo</td>
-		<td>bmobquery.addWhereEqualTo("location","china");</td>
+		<td>addWhereEqualTo("location","china");</td>
 		<td>查询表中location为"china"的数据</td>
 	</tr>
 	<tr>
 		<td>addWhereNotEqualTo</td>
-		<td>bmobquery.addWhereNotEqualTo("location","china");</td>
+		<td>addWhereNotEqualTo("location","china");</td>
 		<td>查询表中location不等于"china"的数据</td>
 	</tr>
 	<tr>
 		<td>addWhereGreaterThan</td>
-		<td>bmobquery.addWhereGreaterThan("score",60);</td>
+		<td>addWhereGreaterThan("score",60);</td>
 		<td>查询表中score(int)大于60的数据</td>
 	</tr>
 	<tr>
 		<td>addWhereGreaterThanOrEqualTo</td>
-		<td>bmobquery.
-		addWhereGreaterThanOrEqualTo("score",60);</td>
+		<td>addWhereGreaterThanOrEqualTo("score",60);</td>
 		<td>查询表中score(int)大于等于60的数据</td>
 	</tr>
 	<tr>
 		<td>addWhereLessThan</td>
-		<td>bmobquery.addWhereLessThan("score",60);</td>
+		<td>addWhereLessThan("score",60);</td>
 		<td>查询表中score(int)小于60的数据</td>
 	</tr>
 	<tr>
 		<td>addWhereLessThanOrEqualTo</td>
-		<td>bmobquery.
-		addWhereLessThanOrEqualTo("score",60);</td>
+		<td>addWhereLessThanOrEqualTo("score",60);</td>
 		<td>查询表中score(int)小于等于60的数据</td>
 	</tr>
 	<tr>
 		<td>addWhereGreaterThan,
 		addWhereLessThan</td>
-		<td>bmobquery.addWhereGreaterThan("createAt",date);</td>
+		<td>addWhereGreaterThan("createAt",date);</td>
 		<td>特别添加：上述也可用于时间比较</td>
 	</tr>
 	<tr>
 		<td>addWhereExists</td>
-		<td>bmobquery.addWhereExists("username");</td>
+		<td>addWhereExists("username");</td>
 		<td>查询username有值的数据</td>
 	</tr>
 	<tr>
 		<td>addWhereDoesNotExists</td>
-		<td>bmobquery.
-		addWhereDoesNotExists("score");</td>
+		<td>addWhereDoesNotExists("score");</td>
 		<td>查询score为空的数据</td>
 	</tr>
 </table>
