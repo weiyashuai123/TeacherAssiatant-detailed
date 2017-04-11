@@ -1,4 +1,4 @@
-## 1 登录功能（如何使用云服务实现联网登录）</br>
+## 第一章 登录功能（如何使用云服务实现联网登录）</br>
 源码:[loginDemo点击下载源码](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/LoginDemo.zip)</br>
 首先我们需要使用移动云服务来储存数据.打开Bmob官网：[http://www.bmob.cn/](http://www.bmob.cn/) 注册一个账号并登陆</br>
 在右上角点开我的控制台</br>
