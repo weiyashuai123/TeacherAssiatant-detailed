@@ -83,7 +83,7 @@
 </table>
   
   还有一些模糊查询只有付费用户才能用，故此处不列出</br>
-  想看更多可以查看官网的开发文档[Bmob开发文档](http://docs.bmob.cn/data/Android/b_developdoc/doc/index.html#查询结果计数)</br>
+  想看更多可以查看官网的开发文档:[Bmob开发文档](http://docs.bmob.cn/data/Android/b_developdoc/doc/index.html#查询结果计数)</br>
 查询演示图：</br>
 ![query](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/check.gif "query")</br>
 很简单，就不给出界面和代码详解了，有兴趣可以在这里下载源码：</br>
