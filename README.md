@@ -107,10 +107,33 @@
   ![shape](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/3.5.6.png "shape")</br>
   好的 这样我们就成功地自己写了一个背景图片，yeah~</br>
   接下来讲一下颜色 Android 颜色有四种：（注：这里的数字都是16进制数字0-f代表 0 - 15）</br>
-  16位低精度三通道：格式-#RGB 如 #F00（红色） #00F（蓝色）</br>
-  16位低精度四通道：格式-#ARGB 如 #FF00（不透明红色）#8F00（半透明红色）#0F00（纯透明红色）（纯透明跟没颜色是一样的）</br>
-  128位高精度三通道：格式-#RRGGBB 如 #FF0000（红色） #00FF00（绿色）</br>
-  128位高精度四通道：格式-#AARRGGBB 如  #FFFF0000（不透明红色）</br>
+<table>
+	<tr>
+		<td>通道</td>
+		<td>格式</td>
+		<td>示例</td>
+	</tr>
+	<tr>
+		<td>16位低精度三通道</td>
+		<td>#RGB</td>
+		<td>#F00（红色）</td>
+	</tr>
+	<tr>
+		<td>16位低精度四通道</td>
+		<td>#ARGB</td>
+		<td> #FF00（不透明红色）#8F00（半透明红色）#0F00（纯透明红色）</td>
+	</tr>
+	<tr>
+		<td>128位高精度三通道  </td>
+		<td> #RRGGBB </td>
+		<td> #FF0000（红色） #00FF00（绿色） </td>
+	</tr>
+	<tr>
+		<td> 128位高精度四通道</td>
+		<td>  #AARRGGBB  </td>
+		<td> #FFFF0000（不透明红色）</td>
+	</tr>
+</table>
   关于配色我这里有个不错的网站：[http://tool.c7sky.com/webcolor/](http://tool.c7sky.com/webcolor/)</br>
   好，这章就到这里。</br>
 ## 4 查询数据
