@@ -7,7 +7,5 @@
 * [第4章：查询数据](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/Chapter4.md)
 ## 作者信息
 * Author：魏亚帅</br>
- 邮箱：weiyashuai123@gmail.com</br>
- 邮箱：subcakewei@outlook.com</br>
- 邮箱：subcakewei@163.com</br>
+ 邮箱：weiyashuai123@gmail.com，subcakewei@outlook.com，subcakewei@163.com</br>
  GitHub：[github.com/weiyashuai123](https://github.com/weiyashuai123)</br>
