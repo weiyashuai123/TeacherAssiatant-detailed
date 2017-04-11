@@ -1,7 +1,7 @@
 ## 第3.5章 简单自定义drawable（插入章）
 xml源码:
-[bg_button.xml](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/bg_button.xml) ,
-[bg_button2.xml](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/bg_button2.xml)</br>
+[bg_button.xml](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/src/bg_button.xml) ,
+[bg_button2.xml](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/src/bg_button2.xml)</br>
 首先来看几个图片：</br>
 ![shape](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/3.5.7.png "shape")</br>
 圆形的和带弧度按钮可不是找的图片哦，而是我们自己写的xml背景文件</br>
