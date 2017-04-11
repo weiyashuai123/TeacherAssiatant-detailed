@@ -8,4 +8,5 @@
 ## 作者信息
 * Author：魏亚帅</br>
  邮箱：weiyashuai123@gmail.com，subcakewei@outlook.com，subcakewei@163.com</br>
+ QQ：592693857
  GitHub：[github.com/weiyashuai123](https://github.com/weiyashuai123)</br>
