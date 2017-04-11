@@ -134,11 +134,11 @@
 		<td> #FFFF0000（不透明红色）</td>
 	</tr>
 </table>
-<del>
+<dev>
   关于配色我这里有个不错的网站：[http://tool.c7sky.com/webcolor/](http://tool.c7sky.com/webcolor/)</br>
   好，这章就到这里。</br>
- </del>
- <del>
+ </dev>
+ <dev>
 ## 4 查询数据
   运用数据库最重要的就是查询数据了，之前说了保存数据以及BmobUser类的使用这章我们来讲讲如何查询数据</br>
   首先我给之前建立的数据表SignInfo从后台插入了几条数据 用于我们对查询操作的详解.插完之后大概张这个样子：</br>
@@ -170,4 +170,4 @@
   xml布局文件：[activity_check](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/activity_check.xml) 
   CheckActivity：[CheckActivity](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/CheckActivity.java)</br>
   好了 这章到这里就结束了</br>
-</del>
+</dev>
