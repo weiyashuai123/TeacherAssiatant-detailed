@@ -5,9 +5,7 @@
 * [第3章：注册与签到（扩展User类以及往数据库中写入数据）（下）](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/Chapter3.md)
 * [第3.5章：简单自定义drawable（插入章）](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/Chapter3.5.md)
 * [第4章：查询数据](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/Chapter4.md)
-
-* Create At：2017年4月5日</br>
-  Update At：2017年4月11日</br>
-  Author：魏亚帅</br>
+## 作者信息
+* Author：魏亚帅</br>
   E-mail：subcakewei@outlook.com</br>
   GitHub：[github.com/weiyashuai123](https://github.com/weiyashuai123)</br>
