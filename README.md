@@ -107,7 +107,7 @@
   ![shape](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/3.5.6.png "shape")</br>
   好的 这样我们就成功地自己写了一个背景图片，yeah~</br>
   接下来讲一下颜色 Android 颜色有四种：（注：这里的数字都是16进制数字0-f代表 0 - 15）</br>
-<table>
+`<table>
 	<tr>
 		<td>通道</td>
 		<td>格式</td>
@@ -133,7 +133,7 @@
 		<td>  #AARRGGBB  </td>
 		<td> #FFFF0000（不透明红色）</td>
 	</tr>
-</table>
+</table>`
  </br>
   关于配色我这里有个不错的网站：[http://tool.c7sky.com/webcolor/](http://tool.c7sky.com/webcolor/)</br>
   好，这章就到这里。</br>
