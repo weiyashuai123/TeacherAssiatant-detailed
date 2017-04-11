@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
@@ -38,19 +39,31 @@ public class CheckActivity extends AppCompatActivity {
         btn_query.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String loc = ((RadioButton)(findViewById(rgp_loc.getCheckedRadioButtonId())))
+                        .getText().toString();
+                String user = ((RadioButton)(findViewById(rgp_user.getCheckedRadioButtonId())))
+                        .getText().toString();
                 BmobQuery<SignInfo> query1 = new BmobQuery<SignInfo>();
-                query1.addWhereEqualTo("location","火星");
+                query1.addWhereEqualTo("location",loc);
                 BmobQuery<SignInfo> query2 = new BmobQuery<SignInfo>();
-                query2.addWhereEqualTo("username","laoshi");
+                query2.addWhereEqualTo("username",user);
                 List<BmobQuery<SignInfo>> andquery = new ArrayList<BmobQuery<SignInfo>>();
                 andquery.add(query1);
                 andquery.add(query2);
                 BmobQuery<SignInfo> query = new BmobQuery<SignInfo>();
-                query.or(andquery);
+                query.and(andquery);
                 query.findObjects(new FindListener<SignInfo>() {
                     @Override
                     public void done(List<SignInfo> list, BmobException e) {
-
+                        if (e == null){
+                            String text = "";
+                            for (int i = 0;i<list.size();i++){
+                                text = text + list.get(i).getUsername()+" "
+                                        +list.get(i).getLocation()+" "
+                                        +list.get(i).getCreatedAt()+"\n";
+                            }
+                            txt_info.setText(text);
+                        }
                     }
                 });
 

@@ -17,15 +17,10 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RadioButton
-            android:id="@+id/rb_all_user_check"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="全部"/>
-        <RadioButton
             android:id="@+id/rb_1_user_check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="lasohi"/>
+            android:text="laoshi"/>
         <RadioButton
             android:id="@+id/rb_2_user_check"
             android:layout_width="wrap_content"
@@ -37,11 +32,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <RadioButton
-            android:id="@+id/rb_all_loc_check"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="全部"/>
         <RadioButton
             android:id="@+id/rb_1_loc_check"
             android:layout_width="wrap_content"
