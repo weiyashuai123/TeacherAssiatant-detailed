@@ -9,6 +9,10 @@
   ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/5.3joinclass.gif  "加入群组")</br>
 * 查看记录：</br>
   ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/5.4seerecord.gif "查看记录")</br>
+#### 源码：
+* 教师端：[TeacherAssiatant](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/src/TeacherAssistant.zip)</br>
+* 学生端：[TeacherAssiatant-stu](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/src/TeacherAssistant_stu.zip)</br>
+* 注：源码为Eclipse工程，为之前所做，与本章内容略有不同，仅供参考。
 #### 详解：
 * 数据对象：</br>
   SignInfo(签到信息表)：班级名称，教师用户名，学生姓名，学生学号，签到时间，签到地点纬度，签到地点经度;</br>
