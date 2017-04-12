@@ -1,10 +1,13 @@
 ## 第5章 点名功能的具体实现
 接下来我们要实现第一个主要功能-点名，上课老师挨个点名浪费时间？APP来帮你！一键轻松点名~</br>
 稍后我会给出详解，首先来看一下演示：</br>
-点名                           创建群组                      加入群组                          查看记录</br>
-![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/5.1demo.gif "点名")
-![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/5.2createclass.gif "创建群组")
-![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/5.3joinclass.gif  "加入群组")
+点名：</br>
+![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/5.1demo.gif "点名")</br>
+创建群组：</br>
+![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/5.2createclass.gif "创建群组")</br>
+加入群组：</br>
+![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/5.3joinclass.gif  "加入群组")</br>
+查看记录：</br>
 ![](https://github.com/weiyashuai123/TeacherAssiatant-detailed/blob/master/image/5.4seerecord.gif "查看记录")</br>
 * 数据对象：</br>
   SignInfo(签到信息表)：班级名称，教师用户名，学生姓名，学生学号，签到时间，签到地点纬度，签到地点经度;</br>
