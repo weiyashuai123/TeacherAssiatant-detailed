@@ -9,23 +9,19 @@
 	
 	
 	
-	
-          
-                      BmobUser user = getUser()//getUser()方法是在这里自定义的方法，会获取到当前登录的User
+	              BmobUser user = getUser()//getUser()方法是在这里自定义的方法，会获取到当前登录的User
                       user.setUserName("newname");
 		      user.setPassWord("newpass");
 		      user.update(new UpdateListener() {
-			
-			           @Override
-			        public void done(BmobException e) {
+			 @Override
+			  public void done(BmobException e) {
 			          	// TODO Auto-generated method stub
 			       	if (e==null) {
 					    toast("更新成功");
 				      } else {
 					    toast("错误："+e.getMessage());
 				      }
-			      }
-	      	});
+			      }});
           
 * 删除
   直接调用Bmobobject对象的.delete()方法.示例：</br>
@@ -34,7 +30,6 @@
                           BmobUser user = getUser("7a310bcc6e");
                           //getUser(String id)方法为自定义方法，会从数据库获取到ojectid为7a310bcc6e的数据对象
 		          user.delete(new UpdateListener() {
-			
 			           @Override
 			        public void done(BmobException e) {
 			          	// TODO Auto-generated method stub
