@@ -20,19 +20,16 @@
           
 * 删除
   直接调用Bmobobject对象的.delete()方法.示例：</br>
-        
+`BmobUser user = getUser("7a310bcc6e");`
+`//getUser(String id)方法为自定义方法，这里会从数据库获取到ojectid为7a310bcc6e的数据对象`</br>
+ `user.delete(new UpdateListener() {`</br>
+ ` @Override`</br>
+ ` public void done(BmobException e) {`</br>
+ `// TODO Auto-generated method stub`</br>
+	`if (e==null) {`</br>
+	`toast("更新成功");`</br>
+	`} else {`</br>
+	`toast("错误："+e.getMessage());`</br>
+ `} }});`</br>
           
-                          BmobUser user = getUser("7a310bcc6e");
-                          //getUser(String id)方法为自定义方法，会从数据库获取到ojectid为7a310bcc6e的数据对象
-		          user.delete(new UpdateListener() {
-			           @Override
-			        public void done(BmobException e) {
-			          	// TODO Auto-generated method stub
-			       	if (e==null) {
-					    toast("删除成功");
-				      } else {
-					    toast("错误："+e.getMessage());
-				      }
-			      }
-	      	});
-          
+       
