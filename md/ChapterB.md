@@ -6,9 +6,13 @@
   调用Bmobobject对象的 .update()方法.示例：</br>
   在数据库获取BmobObject对象后，通过对象的.set方法修改其属性，然后调用.update方法提交修改：</br>
         
+	
+	
+	
+	
           
-          BmobUser user = getUser()//getUser()方法是在这里自定义的方法，会获取到当前登录的User
-          user.setUserName("newname");
+                      BmobUser user = getUser()//getUser()方法是在这里自定义的方法，会获取到当前登录的User
+                      user.setUserName("newname");
 		      user.setPassWord("newpass");
 		      user.update(new UpdateListener() {
 			
@@ -27,9 +31,9 @@
   直接调用Bmobobject对象的.delete()方法.示例：</br>
         
           
-          BmobUser user = getUser("7a310bcc6e");
-          //getUser(String id)方法为自定义方法，会从数据库获取到ojectid为7a310bcc6e的数据对象
-		      user.delete(new UpdateListener() {
+                          BmobUser user = getUser("7a310bcc6e");
+                          //getUser(String id)方法为自定义方法，会从数据库获取到ojectid为7a310bcc6e的数据对象
+		          user.delete(new UpdateListener() {
 			
 			           @Override
 			        public void done(BmobException e) {
