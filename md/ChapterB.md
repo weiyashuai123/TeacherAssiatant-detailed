@@ -20,7 +20,7 @@
           
 * 删除
   直接调用Bmobobject对象的.delete()方法.示例：</br>
-`BmobUser user = getUser("7a310bcc6e");`
+`BmobUser user = getUser("7a310bcc6e");`</br>
 `//getUser(String id)方法为自定义方法，这里会从数据库获取到ojectid为7a310bcc6e的数据对象`</br>
  `user.delete(new UpdateListener() {`</br>
  ` @Override`</br>
