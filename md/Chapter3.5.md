@@ -1,4 +1,4 @@
-## A 简单自定义drawable（插入章）
+## A 自定义drawable（插入章）
 xml源码:
 [bg_button.xml](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/src/bg_button.xml) ,
 [bg_button2.xml](https://github.com/weiyashuai123/TeacherAssiatant-detailed/raw/master/src/bg_button2.xml)</br>
